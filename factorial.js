@@ -1,5 +1,5 @@
 
-// I got there finally... with some Rohan help..
+/*find the factorial of a given number*/
 
 
 var factorial = function(n){
