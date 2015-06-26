@@ -25,7 +25,7 @@ var vowels = function(str) {
     var array = str.toLowerCase();
         array = array.split('');
     var vowel = {'a':1,'e':1,'i':1,'o':1,'u':1}; //array of letters
-    return array.reduce(function(start,element) { 
+    return array.reduce(function(start,element) {
         var sum = 0;
         if(vowel.hasOwnProperty(element)) {
             return start+1;  //count up the vowels
@@ -50,20 +50,3 @@ var isVowel = function (str) {
 };
 
 
-//using object method
-
-var isVowel = function(str){
-
-    var vowels = {
-        a: true,
-        e: true,
-        i: true,
-        o: true,
-        u: true
-    };
-    
-    return vowels.hasOwnProperty(str);
-
-};
-
-isVowel("abc");
