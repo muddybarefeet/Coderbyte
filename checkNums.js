@@ -1,5 +1,8 @@
-
-// which of two numbers is greater return true if num2 is greater. If equal return -1
+/*
+Using the JavaScript language, have the function CheckNums(num1,num2) 
+take both parameters being passed and return the string true if num2 is 
+greater than num1, otherwise return the string false. If the parameter 
+values are equal to each other then return the string -1.*/
 
 var arr = [4,4];
 
@@ -15,4 +18,3 @@ var checkNums = function (num1,num2) {
 
 checkNums(4,4);
 
-//not sure why it wont work with my arr variable?
