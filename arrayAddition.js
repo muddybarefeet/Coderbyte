@@ -12,8 +12,6 @@ contain all the same elements, and may contain negative numbers.
 */
 
 
-//with recusrion
-
 var arrayTot = function(array) {
 
     var array2 = array.slice(0);
@@ -42,11 +40,6 @@ var arrayTot = function(array) {
 arrayTot([4,4,-1,8,12]);
 
 
-
-//recursivly I need to keep finding the difference between the largest and the difference until the difference is on the othe numbers in array2 
-
-
-//(10,20,30,40,100)
 //(31,2,90,50,7)//true
 
 
