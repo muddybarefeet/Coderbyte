@@ -1,4 +1,4 @@
-//put dashes between odd numbers
+//put dashes between just odd numbers
 
 var num = 37384904;
 
@@ -18,5 +18,23 @@ var dashInsert = function(str) {
 
 dashInsert(num);
 
-/*can't see why it is not working with some numbers?? Especialy many of the same number...*/
+//using map to solve :)
+
+var num = 37384904;
+
+var dashInsert = function(str) {
+	var array = str.toString().split('');
+	var result="";
+	
+	array.map(function(element,i,array) {
+		if(element%2 !== 0 && array[i+1]%2 !== 0) result+= element+"-";
+		else result+=element;
+	});
+    
+    if(result[result.length-1] === '-') result = result.slice(0,-1); //if the last one is a dash remove it!
+	return result.replace(/--/g, '-'); //returns a string with multiple '-'s removed
+};
+
+dashInsert(num);
+
 
