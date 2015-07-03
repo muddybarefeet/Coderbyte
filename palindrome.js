@@ -1,8 +1,6 @@
 
 //see if a sting is the same backwards as forwards
 
-/////////
-
 var string = 'Thus the old mare trotted home';
 
 var copy = function (str) {
