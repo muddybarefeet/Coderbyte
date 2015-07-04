@@ -13,5 +13,5 @@ var simpleAdding = function (num) {
 
 simpleAdding(arr);
 
-//REMEMBER TO ADD ALL THE I NOT NUM(NUM[I])!!
+
 
