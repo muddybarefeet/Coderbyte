@@ -1,4 +1,4 @@
-/*If letter put a plus either side of it*/
+/*If the element currently on is a letter put a plus either side of it*/
 
 var string = "+f+d+";
 
