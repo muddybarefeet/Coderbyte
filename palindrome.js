@@ -28,16 +28,7 @@ var palindrome = function (sentence) {
 palindrome(string);
 
 
-//how to copy an array and not a string
 
-var arry = ['tipi','tent','fire'];
-var copy = function(array) {
-	var duplicateCopy = [];
-	for(var i=0; i<array.length; i++) {
-		duplicateCopy.push(array[i]);
-	}
-	return duplicateCopy;
-};
 
 
 
